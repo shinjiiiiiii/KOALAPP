@@ -1,0 +1,178 @@
+nav{
+    height: 90px;
+    display: flex;
+    background-color: #282828;
+    justify-content: center;
+    gap: 30%;
+}
+nav > ul {
+    display: flex;
+    justify-content: center;
+}
+nav > ul li{
+    display: flex;
+    border-left: #313131 solid 1px;
+    border-right: #313131 solid 1px;
+}
+nav > ul li a{
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+nav > ul li a:hover{
+    background-color: #4e4e4e;
+}
+nav > ul li a img{
+    padding: 5px;
+    filter: brightness(0) saturate(100%) invert(83%) sepia(65%) saturate(2674%) hue-rotate(331deg) brightness(101%) contrast(99%);
+}
+nav > ul :nth-child(1) a{
+    padding: 45px;
+}
+nav > div{
+    border-left: #313131 solid 2px;
+    border-right: #313131 solid 2px;
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-left: 20px;
+}
+nav > div a{
+    background-color: #282828;
+    height: 100%;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+
+
+#login{
+    position: absolute;
+    transform: translate(50%,30%);
+    height: 300px;
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+.login_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 90px;
+}
+.login_img img{
+    height: 90%;
+    filter: brightness(0) saturate(100%) invert(83%) sepia(65%) saturate(2674%) hue-rotate(331deg) brightness(101%) contrast(99%);
+   
+}
+.login_img p{
+    font-size: 1.5em;
+}
+.champ_sel{
+    font-size: 1vw;
+    width: 60%;
+    height: 70%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 8px 1px rgba(149, 151, 153, 0.69);
+    border-radius: 10px;
+    padding: 20px;
+}
+.champ_sel select{
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid rgb(223, 209, 209);
+    border-radius: 5px;
+}
+.champ_sel > button{
+    height: 70px;
+    width: 100%;
+    background-color: #303133;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+/* ////////////////               MENU                ////////////////////////////// */
+
+.cont{
+    margin: 50px auto;
+    width: 50%;
+    border-radius: 7px;
+}
+.questions{
+    position: relative;
+    width: 100%;
+    font-size: 1.1em;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    height: 50px;
+}
+.questions p{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    padding-left: 20px;
+    height: 110%;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    border-top: 2px solid #c0baba ;
+    border-left: 2px solid #c0baba ;
+    border-right: 2px solid #c0baba;
+    border-bottom: 3px solid white;
+}
+.questions_arep{
+    border:  2px solid #c0baba;
+    width: 97.5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0px;
+}
+.questions_arep > article {
+    border: 2px solid #c0baba;
+    height: 200px;
+    width: 48%;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.questions_arep > article p{
+    color: gray;
+}
+.questions_arep > article img{
+    height: 100px;
+    float: right;
+    object-fit: cover;
+}
+.questions_arep > article div{
+    border-bottom: 1px solid rgb(216, 211, 211);
+    width: 100%;
+    padding: 10px;
+    height: 70%;
+}
+.questions_arep > article button{
+    width: 90%;
+    height: 20%;
+    background-color: white;
+    border: 2px solid #a2a2a2;
+    border-radius: 7px;
+}
