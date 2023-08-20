@@ -1,3 +1,5 @@
-code d'indien j'avoue 
-pas sue comment boucler sur les objets dans data (sans les modifiers sinon je rajoute un tableau pour un for of car le for in redonne la valeur en string)
-pas fini pour ca que pas tout et traduis et pour ca que je voulais pas commit avant (donc bcp de css a supprimer etc)
+code d'indien 
+Pas du tout fini a cause d'un quiproquo que j'expliquerai surment le 31.(pour ca que ya que 2 commit)
+Il y a beaucoup de code mal utiliser ou de trop.
+les questions sont donc en anglais (comme dans le fichier data)
+je n'ai pas pu utiliser tout les fichiers helpers ou pas tout en entier.
